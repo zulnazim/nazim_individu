@@ -1,0 +1,173 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#161616;
+}
+ul{
+	list-style:none;
+}
+ul li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+a{
+	text-decoration:none;
+}
+li {
+  display: list-item;
+}
+#main{
+	padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 1330px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-image: url("../images/tunku website 2.jpg");
+	background-size: cover;
+	background-color: #edf1fd;
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: calibri;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05);
+	z-index: 1;
+}
+.menu{
+	display: flex;
+}
+.menu li a{
+	padding: 10px 15px;
+	color: #6c707c;
+	font-size: 1rem;
+}
+.name{
+	font-family: calibri;
+	width: 500px;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name .details{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: justify;
+}
+.name h1{
+	font-family:Poppins;
+	font-size: 40px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+#about{
+	width:100%;
+	height: 100vh;
+	background-color:#161616;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.about-text{
+	font-family: calibri;
+	width: 50%;
+}
+.about-text h1{
+	font-size: 3rem;
+	color: #ffa842;
+	margin: 0px;
+	padding: 0px;
+	font-weight: 400;
+}
+.about-text p{
+	font-size: 1.5rem;
+	text-align: justify;
+}
+.about-text li{
+	font-size: 18px;
+}
+.cont-heading h1{
+	color:#FFFFFF;
+	font-size: 3rem;
+	margin: 0px;
+	padding: 0px;
+
+}
+.cont-heading p{
+	color:rgba(255,255,255,0.30);
+	font-size: 1rem;
+	margin: 0px;
+	padding: 0px;
+}
+.cont-heading{
+	text-align: center;
+	margin: 20px 0px;
+}
+.cont-box{
+	background-color: #2B2B2B;
+	width:350px;
+	height: 500px;
+	margin: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	position: relative;
+}
+.cont-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.cont-img{
+	width: 100%;
+	height: 70%;
+
+}
+.cont-img img{
+	width:100%;
+	height: 100%;
+
+}
+.cont-text{
+	font-size: 14px;
+	justify-content: center;
+	text-align: justify;
+}
+.container {
+  border-radius: 2px;
+  background-color: black;
+  padding: 10px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}

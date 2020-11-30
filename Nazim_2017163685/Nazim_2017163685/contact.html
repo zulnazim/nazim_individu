@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="icon" type="ico" href="./images/icon bendera.ico">
+
+  <title>Contact Form</title>
+
+</head>
+<body>
+
+<section id="main">
+  <nav>
+    <img src="./images/bendera.jpg" style="height: 30px; width: 50px;">
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contribution.html">Contributions</a></li>
+      <li><a href="titles.html">Titles and Styles</a></li>
+      <li><a href="contact.html">Contact form</a></li>
+      <li><a href="references.html">References</a></li>
+    </ul>
+  </nav>
+</section>
+
+<div class="name">
+  <h1><font color="white">Contact<font color="#ffff80"> Form</font></h1>
+  <p class="details">All the information that have been provide in the website is based on research that been compiled by the author. just in case, any of you would like to ask more about other figures or also want to give your opinion about our content can fill the form below.</p>
+</div>
+
+<div class="container">
+  <form>
+    <label>First Name</label>
+      <input type="text" name="firstname" placeholder="First name.."></input><br>
+
+    <label>Last Name</label>
+      <input type="text" name="lastname"  placeholder="Last name.."></input><br>
+
+    <label>Country</label>
+      <select name="country">
+        <option value="Malaysia">Malaysia</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Philippine">Philippine</option>
+        <option value="Vietnam">Vietnam</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Myanmar">Myanmar</option>
+        <option value="Singapore">Singapore</option>
+      </select><br>
+
+    <label>Subject</label>
+      <textarea placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <button onclick="submitFunction()">Submit</button>
+  </form>
+</div>
+
+<script>
+  function submitFunction() {
+    alert("Thanks for submit!");
+  }
+</script>
+
+</body>
+</html>
